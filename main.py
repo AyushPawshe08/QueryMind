@@ -19,6 +19,7 @@ def main():
 
     result = research_graph.invoke({
         "topic": topic,
+        "sub_queries": [],
         "search_results": "",
         "scraped_content": "",
         "sources": [],
@@ -26,6 +27,7 @@ def main():
         "critique": "",
         "score": 0,
         "iterations": 0,
+        "chart_data": {},
     })
 
     # ── Final Report ───────────────────────────────────────────────────────────
