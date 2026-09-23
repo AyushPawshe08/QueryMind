@@ -1,0 +1,25 @@
+# Environment variables
+.env
+.env*.local
+.env.*
+!.env.example
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Output PDFs
+*_report.pdf
+*.pdf
+
+# OS generated files
+.DS_Store
+Thumbs.db
