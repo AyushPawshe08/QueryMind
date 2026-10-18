@@ -16,7 +16,7 @@ except ImportError:
 
 load_dotenv()
 
-JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY", "querymind_super_secret_jwt_key_2026_change_in_prod")
+JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY")
 JWT_ALGORITHM = "HS256"
 JWT_EXPIRATION_DAYS = 7
 
